@@ -16,3 +16,7 @@ thiserror = "1.0.31"
 [lib]
 crate-type = ["lib"]
 name = "solana_faucet"
+
+[[bin]]
+name = "solana-faucet"
+path = "src/bin/faucet.rs"
